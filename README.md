@@ -26,8 +26,7 @@ Install the required dependencies:
 pip install rembg moviepy opencv-python numpy
 Usage
 python
-Copy
-Edit
+
 from background_remover import remove_background_from_video
 
 remove_background_from_video('input_video.mp4', 'output_green_screen.mp4')
