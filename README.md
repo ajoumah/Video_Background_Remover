@@ -6,21 +6,21 @@ A powerful Python tool to automatically remove the background from videos and re
 
 ## ✨ Features
 
-- ✅ Automatically removes background from video frames
-- ✅ Replaces background with green screen (chroma keying)
-- ✅ Works frame-by-frame using the [Rembg](https://github.com/danielgatis/rembg) model (U-2-Net)
-- ✅ Supports MP4 and other popular formats via `moviepy`
-- ✅ Ideal for:
-  - Video post-production
-  - Machine learning dataset generation
-  - Virtual background replacement
-  - Online streaming overlays
+- ✅ Automatically removes background from video frames  
+- ✅ Replaces background with green screen (chroma keying)  
+- ✅ Works frame-by-frame using the [Rembg](https://github.com/danielgatis/rembg) model (U-2-Net)  
+- ✅ Supports MP4 and other popular formats via `moviepy`  
+- ✅ Ideal for:  
+  - Video post-production  
+  - Machine learning dataset generation  
+  - Virtual background replacement  
+  - Online streaming overlays  
 
 ---
 
 ## 🛠️ Installation
 
-First, install the required dependencies:
+Install the required dependencies:
 
 ```bash
 pip install rembg moviepy opencv-python numpy
@@ -41,9 +41,7 @@ Replace the background with a solid green color
 
 Save the processed video to the output path
 
-🧠 How it Works
-The script:
-
+🧠 How It Works
 Reads the video frame-by-frame using moviepy.
 
 Applies the rembg model (U-2-Net) to segment the foreground.
